@@ -29,16 +29,9 @@ class Config:
     
     # API Key 配置（实际应用中应该从数据库读取）
     API_KEY_LIMITS: Dict[str, Dict[str, int]] = {
-        "test-key-1": {"input_tpm": 100000, "output_tpm": 100000, "rpm": 10000},
-        "test-key-2": {"input_tpm": 100000, "output_tpm": 100000, "rpm": 10000},
-        "test-key-3": {"input_tpm": 100000, "output_tpm": 100000, "rpm": 10000},
-        "test-key-4": {"input_tpm": 100000, "output_tpm": 100000, "rpm": 10000},
-        "test-key-5": {"input_tpm": 100000, "output_tpm": 100000, "rpm": 10000},
-        "test-key-6": {"input_tpm": 100000, "output_tpm": 100000, "rpm": 10000},
-        "test-key-7": {"input_tpm": 100000, "output_tpm": 100000, "rpm": 10000},
-        "test-key-8": {"input_tpm": 100000, "output_tpm": 100000, "rpm": 10000},
-        "test-key-9": {"input_tpm": 100000, "output_tpm": 100000, "rpm": 10000},
-        "test-key-10": {"input_tpm": 100000, "output_tpm": 100000, "rpm": 10000},
+        "test-key-1": {"input_tpm": 1000, "output_tpm": 1000, "rpm": 10000},
+        "test-key-2": {"input_tpm": 10000, "output_tpm": 10000, "rpm": 2000},
+        "test-key-3": {"input_tpm": 10000, "output_tpm": 10000, "rpm": 5000}
     }
     
     # 服务器配置
